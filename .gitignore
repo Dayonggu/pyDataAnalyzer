@@ -3,6 +3,11 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# all CSV data
+*.csv
+# all nmon data
+*.nmon
+
 # C extensions
 *.so
 
@@ -99,3 +104,13 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# Unit test / coverage reports
+.coverage
+.tox
+
+#Translations
+*.mo
+
+#Mr Developer
+.mr.developer.cfg
